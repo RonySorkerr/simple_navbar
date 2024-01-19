@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Position</title>
+    <style>
+        .container{
+            gap: 20px;
+            height: 1050px;
+        }
+        .content_left{
+            width: 50%;
+        }
+
+        .content_right{
+            position: sticky;
+            top: 50px;
+            width: 50%;
+        }
+        button{
+            position: sticky;
+            border: 5px solid tomato;
+            border-radius: 10px;
+            background-color: bisque;
+        }
+        nav{
+            text-align: center;
+            padding: 2% 0;
+            position: sticky;
+            top: 0;
+        }
+        nav a{
+            padding: 2%;
+        }
+        header{
+            margin-top: 100px;
+            background-color: whitesmoke;
+            padding: 2% 0;
+            text-align: center;
+        }
+
+        .letz_see{
+            display: flex;
+            margin-top: 150px;
+            height: 1050px;
+        }
+        .para{
+            width: 50%;
+            height: 1950px;
+        }
+        header a{
+            padding: 20px;
+            text-decoration: none;
+            color:cadetblue;
+        }
+        .cardz{
+            width: 50%;
+            background-color: gray;
+            padding: 1% 1%;
+            border-radius: 10px;
+            color: white;
+        }
+        .card{
+            
+            position: sticky;
+            top: 90px;
+        }
+        .card img{
+            width: 100%;
+            border-radius: 5px;
+        }
+        .card_title{
+            font-size: 29px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">nav links are here</a>
+        <a href="">nav links are here</a>
+        <a href="">nav links are here</a>
+        <a href="">nav links are here</a>
+        <a href="">nav links are here</a>
+        <a href="">nav links are here</a>
+        <a href="">nav links are here</a>
+    </nav>
+    <div class="container">
+        <div class="content_left">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem impedit error quisquam sunt id, voluptate veritatis animi quas, quam nemo exercitationem qui ipsum excepturi ullam. Dicta architecto error distinctio officiis libero nisi porro corrupti placeat eveniet quae odit numquam qui rem voluptatibus, quisquam nihil. Odit, totam! Molestiae molestias architecto itaque dolor et ad nam accusamus adipisci excepturi quam quisquam dolorem soluta, ratione unde illo quos? Amet aut harum ut minus odit similique dolores error esse labore. Accusantium, voluptates atque consectetur quaerat, sequi, veritatis reiciendis rerum nobis molestias ut modi totam optio quo. Voluptatum, doloremque! Corrupti modi architecto expedita quia aliquam?
+        </div>
+        <div class="content_right">
+            <button>
+                Press Me
+            </button>
+        </div>
+    </div>
+
+    <main>
+        <header>
+            <a href="">HOME</a>
+            <a href="">LINKS</a>
+            <a href="">JOBS</a>
+            <a href="">NEWS</a>
+        </header>
+        <section class="letz_see">
+            <div class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo amet explicabo vitae reprehenderit, voluptates tenetur nemo quo suscipit cumque sint quis eaque. Magnam consectetur fugit quaerat cumque aut nulla, cum sequi, ullam sunt vitae consequuntur repellat voluptatem repellendus quidem explicabo, ex quo consequatur corporis ipsam libero officiis inventore! Aspernatur in ratione consequatur consequuntur totam veniam asperiores! Deleniti adipisci eos enim officia, veritatis quisquam ipsa ab laborum fugiat est omnis velit, nulla provident! Rerum modi dignissimos aliquam illo quibusdam hic, optio incidunt nobis voluptatem neque cum nisi est nulla libero recusandae sint beatae quas assumenda itaque iure omnis. Ullam porro culpa reiciendis laudantium architecto error nesciunt temporibus illo fugit sequi sunt, corrupti nam est alias cumque in expedita commodi voluptatibus corporis eos cum rem! Reprehenderit optio, exercitationem aspernatur at minima, incidunt illo aperiam rem distinctio ducimus culpa expedita excepturi aliquid, esse nostrum totam non. Voluptate illo accusamus perspiciatis modi commodi adipisci.
+            </div>
+            <div class="cardz">
+                <div class="card">
+                    <img src="img/kawasaki.jpg" alt="">
+                    <h1 class="card_title">KAWASAKI NINJA</h1>
+                    <p class="desk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, impedit.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
